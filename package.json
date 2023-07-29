@@ -1,0 +1,33 @@
+{
+  "name": "@hangingtrails/contracts",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.11.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.5.1",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.4",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@routerprotocol/router-crosstalk": "^0.1.8",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.7.0",
+    "hardhat-abi-exporter": "^2.10.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "solidity-coverage": "^0.7.21",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "prettier": "prettier --write 'contracts/**/*.sol'"
+  }
+}
